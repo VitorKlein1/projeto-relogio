@@ -3,6 +3,8 @@
 * {
     margin: 0px;
     padding: 0px;
+    transition: width 0.15s;
+    transition-timing-function: ease;
 }
 
 
