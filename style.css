@@ -26,7 +26,7 @@ body {
 div#clock {
     box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.39);
     height: 210px;
-    width: 90vw;
+    width: 420px;
     border-radius: 15px;
     display: flex;
     align-items: center;
