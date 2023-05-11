@@ -16,7 +16,6 @@ BREAKPOINTS
 /*  -----------TABLET-----------  */
 @media screen and (min-width: 768px) and (max-width: 992px) {
     div#clock {
-        height: 35vh;
         width: 65vw;
     }
 
@@ -43,7 +42,6 @@ BREAKPOINTS
 /*  -----------DESKTOP-----------  */
 @media screen and (min-width: 992px) and (max-width: 1200px) {
     div#clock {
-        height: 35vh;
         width: 50vw;
     }
 
@@ -70,7 +68,6 @@ BREAKPOINTS
 /*  -----------TELAS GRANDES-----------  */
 @media screen and (min-width: 1200px) {
     div#clock {
-        height: 35vh;
         width: 40vw;
     }
 
