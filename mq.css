@@ -1,0 +1,93 @@
+@charset "UTF-8";
+
+/*
+
+BREAKPOINTS
+•	Telas pequenas: até 600px
+•	Celular: 600px – 768px
+•	Tablet: 768px – 992px
+•	Desktop: 992px – 1200px
+•	Telas grandes: acima de 1200px
+
+*/
+
+
+
+/*  -----------TABLET-----------  */
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    div#clock {
+        height: 35vh;
+        width: 65vw;
+    }
+
+
+    #clock div {
+        width: 140px;
+        height: 180px;
+        letter-spacing: 4px;
+    }
+
+
+    #hours, #minutes, #seconds {
+        font-size: 3.5em;
+    }
+
+
+    #clock span.time {
+        font-size: 1.6em;
+    }
+}
+
+
+
+/*  -----------DESKTOP-----------  */
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    div#clock {
+        height: 35vh;
+        width: 50vw;
+    }
+
+
+    #clock div {
+        width: 150px;
+        height: 180px;
+        letter-spacing: 4px;
+    }
+
+    
+    #hours, #minutes, #seconds {
+        font-size: 4em;
+    }
+
+
+    #clock span.time {
+        font-size: 1.6em;
+    }
+}
+
+
+
+/*  -----------TELAS GRANDES-----------  */
+@media screen and (min-width: 1200px) {
+    div#clock {
+        height: 35vh;
+        width: 40vw;
+    }
+
+
+    #clock div {
+        width: 150px;
+        height: 180px;
+        letter-spacing: 4px;
+    }
+
+    
+    #hours, #minutes, #seconds {
+        font-size: 4em;
+    }
+
+    
+    #clock span.time {
+        font-size: 1.7em;
+    }
+}
